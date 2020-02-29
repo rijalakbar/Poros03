@@ -1,5 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Exo:100,200,400');
   body {
     font-family: 'Roboto';
     background-image: url("../images/BG.jpg");
@@ -18,8 +19,22 @@
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.4);
   }
+  .logo1{
+    margin-top: 70px;
+    font-size: 92px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+  }
+  hr{
+    width: 50%;
+  }
+
+  .logo1 span{
+    color: #5379fa !important;
+  }
+
   .konten{
-    margin-top: 230px;
+    margin-top: 10px;
     margin-left: 20px;
   }
   
