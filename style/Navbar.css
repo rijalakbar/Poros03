@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,400');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  .a1{
+    float: left;
+    font-family: 'Exo', sans-serif;
+  }
+  .a1 span{
+    color: #5379fa !important;
+  }
+
+.topNav li.active{
+    background-color: #E34848;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #E34848;
+  }

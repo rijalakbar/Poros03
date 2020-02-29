@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  body {
+    font-family: 'Roboto';
+    background-image: url("../images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+    overflow: hidden;
+  }
+  .boxKiri{
+    margin-left: 10px;
+    float: left;
+    width: 50%;
+    height: 900px;
+    color: white;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .konten{
+    margin-top: 230px;
+    margin-left: 20px;
+  }
+  
+  .judul{
+    font-size: 86px;
+    margin-left: 60px;
+  }
+  
+  .boxKanan{
+    float: right;
+    width: 45%;
+  }
+
+  .img1{
+    position: absolute;
+    margin-top: 100px;
+    width: 550px;
+    height: 750px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img2{
+    margin-left: 250px;
+    margin-top: 150;
+    width: 550px;
+    height: 750px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* .bouncy{
+    animation: bouncy 5s infinite linear;
+    position: relative;
+    }
+    @keyframes bouncy {
+      0%{top:0em}
+      40%{top:0em}
+      43%{top:-0.9em}
+      46%{top:03em}
+      48%{top:-0.4em}
+      50%{top:0em}
+      100%{top:0em}
+    } */
+  
+    a.button1{
+      font-size: 24px;
+      display: inline-block;
+      padding: 0.35em 1.2em;
+      border: 0.1em solid #FFFFFF;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-weight: 300;
+      color: #FFFFFF;
+      text-align: center;
+      transition: all 0.2s;
+      margin-left: 350px;
+      margin-top: 30px;
+      }
+      a.button1:hover{
+        color: white;
+        background-color: #E34848;
+      }

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+    background-image: url("../images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+    overflow: hidden;
+  }
+
+.gradR{
+	margin-top: 270px;
+	height: 340px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.headerR{
+	position: absolute;
+	top: calc(50% - 80px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.p1R{
+	margin-top: 30px;
+	color: white;
+	text-align: center;
+}
+.p2R{
+	color: #5379fa;
+	margin-left: 930px;
+}
+
+.headerR div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 56px;
+	font-weight: 200;
+}
+
+.headerR div span{
+	color: #5379fa !important;
+}
+
+.loginR{
+	margin-top: 20px;
+	margin-left: 930px;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 160px;
+	width: 260px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.loginR input[type=text]{
+    position: absolute;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+.loginR input[type=text2]{
+    margin-left: 270px;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.loginR input[type=username]{
+	margin-top: 10px;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.loginR input[type=password]{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.loginR input[type=password2]{
+	margin-left:270px;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.loginR input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.loginR input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.loginR input[type=button]:active{
+	opacity: 0.6;
+}
+
+.loginR input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginR input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginR input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
